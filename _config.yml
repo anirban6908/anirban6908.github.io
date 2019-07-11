@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Anirban Nandi"
   avatar           : "/assets/images/Ani_bio.JPG"
-  bio              : "Computational Scientist <br> <a href="http://alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/anirban-nandi/">Allen Institute for Brain Science</a>"
+  bio              : "Computational Scientist <br> Allen Institute for Brain Science"
   location         : "Seattle, WA"
   email            : "anin@alleninstitute.org"
   linkedin         : "anirban-nandi"
@@ -117,9 +117,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-    - label: "Website"
+    - label: "Allen Profile"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "http://alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/anirban-nandi"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
