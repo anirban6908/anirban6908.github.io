@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Anirban"
 title_separator          : "-"
 name                     : "Anirban Nandi"
 description              : "Personal website."
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Anirban Nandi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Ani_bio.JPG"
   bio              : "Computational Scientist"
   location         : "Seattle, WA"
   email            :
