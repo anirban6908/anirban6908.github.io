@@ -108,9 +108,11 @@ analytics:
 author:
   name             : "Anirban Nandi"
   avatar           : "/assets/images/Ani_bio.JPG"
-  bio              : "Computational Scientist"
+  bio              : "Computational Scientist <br> Allen Institute for Brain Science"
   location         : "Seattle, WA"
-  email            :
+  email            : "anin@alleninstitute.org"
+  linkedin         : "anirban-nandi"
+  googlescholar    : "https://scholar.google.com/citations?user=iRq4Y8wAAAAJ&hl=en"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
