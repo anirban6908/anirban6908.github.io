@@ -115,8 +115,8 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=iRq4Y8wAAAAJ&hl=en"
   github           : "anirban6908"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Allen Profile"
       icon: "fas fa-fw fa-link"
@@ -292,7 +292,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: #true
       comments: # true
       share: true
       related: true
