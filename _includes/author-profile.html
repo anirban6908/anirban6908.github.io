@@ -33,9 +33,9 @@
       <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
     {% endif %}
     {% if author.bio %}
-      <p class="author__bio" itemprop="description">
-        {{ author.bio }}
-      </p>
+      <div class="author__bio" itemprop="description">
+        {{ author.bio | markdownify }}
+      </div>
     {% endif %}
   </div>
 
@@ -102,12 +102,6 @@
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
           </a>
-        </li>
-      {% endif %}
-
-      {% if author.googlescholar %}
-        <li>
-          <a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a>
         </li>
       {% endif %}
 

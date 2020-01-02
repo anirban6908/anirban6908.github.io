@@ -1,18 +1,13 @@
 ---
-title: Publications
+layout: single
+author_profile: true
+comments: false
+title: false
 permalink: /publications/
 ---
 
-Please visit:
+### Journals
 
-- [Google Scholar page](https://scholar.google.com/citations?user=iRq4Y8wAAAAJ&hl=en)
-<!-- - my [ResearchGate profile](https://www.researchgate.net/profile/Tomas_Chor).
- -->
-
-Selected publications
----------------------
-
-{% include pubpage.html %}
 
 
 

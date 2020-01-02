@@ -10,16 +10,17 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#theme                    : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.16.4"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Anirban Nandi"
 title_separator          : "-"
-#name                     : "Anirban Nandi"
-description              : "Personal website of Anirban Nandi currently working at Allen Institute"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Ani Nandi"
+description              : "Personal website of Anirban Nandi"
 url                      : "https://anirban6908.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "anirban6908/anirban6908.github.io"
@@ -106,33 +107,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Anirban Nandi"
+  name             : "Ani Nandi"
   avatar           : "/assets/images/Ani_bio.JPG"
-  bio              : "Computational Scientist | Electrical Eng."
+  bio              : "Computational NeuroSc. <br> PhD, Electrical Eng. <br> Alum: WashU (STL), JU"
   location         : "Seattle, WA"
-  email            : "anin@alleninstitute.org"
+  email            : "ani.nandi989@gmail.com"
   linkedin         : "anirban-nandi"
   googlescholar    : "https://scholar.google.com/citations?user=iRq4Y8wAAAAJ&hl=en"
   github           : "anirban6908"
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-    - label: "Allen Profile"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "http://alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/anirban-nandi"
-  #   - label: "Twitter"
-  #     icon: "fab fa-fw fa-twitter-square"
-  #     # url: "https://twitter.com/"
-  #   - label: "Facebook"
-  #     icon: "fab fa-fw fa-facebook-square"
-  #     # url: "https://facebook.com/"
-  #   - label: "GitHub"
-  #     icon: "fab fa-fw fa-github"
-  #     # url: "https://github.com/"
-  #   - label: "Instagram"
-  #     icon: "fab fa-fw fa-instagram"
-  #     # url: "https://instagram.com/"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -217,7 +218,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
@@ -233,7 +234,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -242,7 +242,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 
@@ -254,8 +253,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -276,7 +275,7 @@ tag_archive:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
@@ -288,11 +287,11 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
       layout: single
       author_profile: true
-      read_time: #true
+      read_time: true
       comments: # true
       share: true
       related: true

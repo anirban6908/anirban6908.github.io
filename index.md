@@ -1,12 +1,12 @@
 ---
-title: About me
-header:
-  image: /assets/images/Rainier.png
 layout: single
+author_profile: true
+comments: false
+title: false
 ---
 
+### About Me
 Under Construction.
 
-<!---->
 
 
