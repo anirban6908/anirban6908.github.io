@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Anirban Nandi"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Ani Nandi"
+name                     : "Anirban Nandi"
 description              : "Personal website of Anirban Nandi"
 url                      : "https://anirban6908.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ani Nandi"
+  name             : #Anirban Nandi
   avatar           : "/assets/images/Ani_bio.JPG"
-  bio              : "Computational NeuroSc. <br> PhD, Electrical Eng. <br> Alum: WashU (STL), JU"
+  bio              : "Allen Institute <br> PhD, Electrical Eng. <br> Alum: WashU (STL), JU"
   location         : "Seattle, WA"
   email            : "ani.nandi989@gmail.com"
   linkedin         : "anirban-nandi"
@@ -119,12 +119,12 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-    - label: "Website"
+    - label: "Allen Institute Profile"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "http://alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/anirban-nandi"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/ynwa6908"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
