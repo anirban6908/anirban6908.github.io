@@ -19,12 +19,12 @@ Using morphology (diameter and length of digitally reconstructed segments) and e
 * Establish causal relationship between different modalities of data - are the ion channels indicative of the genetic signature of the cell and how these channels affect electrophysiological properties e.g., shape of the action potential, Afterhyperpolarization(AHP).
 
 
-## Simulate networks of neuron models to probe conputational power, connectivity rules, extracellular signature
+## Simulate networks of neuron models to probe computational power, connectivity rules, and extracellular signature of cell classes
 <img src="/assets/images/300_neurons.png" height="250" width="150" align='left'>
 
 * Probe computational properties by simulating biophysically realisitic models of neurons and furthermore networks under synapses, resembling real physiological states. Can we classify neurons according to their computational bandwidth -  within species across regions, cross species in homologous regions?
 
-* Examine efficacies of unique structural connectivity properties of specialized cells (**Chanelier**), as seen in the Electron Microscopy (EM) data, by simulating single neuron/networks under equivalent synapse configurations.
+* Examine efficacies of unique structural connectivity properties of specialized cells (**Chandelier**), as seen in the Electron Microscopy (EM) data, by simulating single neuron/networks under equivalent synapse configurations.
 
 * Use experimental (in-vivo) and simulated extracellular signature of neurons along recording depth to link muti-modal data and furthermore infer cell-types.
 
