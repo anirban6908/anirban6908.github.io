@@ -104,7 +104,11 @@
           </a>
         </li>
       {% endif %}
-
+      {% if author.googlescholar %}
+        <li>
+          <a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw"></i> Google Scholar</a>
+        </li>
+      {% endif %}
       {% if author.xing %}
         <li>
           <a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
