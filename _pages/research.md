@@ -7,28 +7,26 @@ classes: wide
 permalink: /research/
 ---
 
-## Biophysically detailed modeling of single neurons
+## Biophysically detailed models of single neurons
 <img src="/assets/images/opt_graphical_abstract.png" height="350" width="350" align='right'> 
 {: style="text-align: justify"}
-Using morphology and electrophysiology data to constrain a multi-compartmental computational model of single neurons.
+Using morphology (diameter and length of digitally reconstructed segments) and electrophysiology (in-vitro recording of the membrane voltage under a standardized set of current protocols) data to constrain a multi-compartmental computational model of single neurons.
 
-* a
+* Distribute a set of active conductances along the entire morphology (hence, called all-active models) and fit the maximal values for these conductances via a multi-objective optimization framework using evolutionary algorithms.
 
-* b
+* Do the optmized conductances preserve information about the broader cell-type identity?
 
-* c
+* Establish causal relationship between different modalities of data - are the ion channels indicative of the genetic signature of the cell and how these channels affect electrophysiological properties e.g., shape of the action potential, Afterhyperpolarization(AHP).
 
 
-## Simulate networks of realistic neuron models to probe connectivity rules, extracellular signature
+## Simulate networks of neuron models to probe conputational power, connectivity rules, extracellular signature
 <img src="/assets/images/300_neurons.png" height="250" width="150" align='left'>
 
-* a
+* Probe computational properties by simulating biophysically realisitic models of neurons and furthermore networks under synapses, resembling real physiological states. Can we classify neurons according to their computational bandwidth -  within species across regions, cross species in homologous regions?
 
-* b
+* Examine efficacies of unique structural connectivity properties of specialized cells (**Chanelier**), as seen in the Electron Microscopy (EM) data, by simulating single neuron/networks under equivalent synapse configurations.
 
-* c
+* Use experimental (in-vivo) and simulated extracellular signature of neurons along recording depth to link muti-modal data and furthermore infer cell-types.
 
-<br>
-<br>
 
-## Control theoretic approach to design stimulations for neural circuits
+## Control theoretic approach to design stimulation patterns for neural circuits
