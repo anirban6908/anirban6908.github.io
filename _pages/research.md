@@ -33,9 +33,9 @@ Using morphology (diameter and length of digitally reconstructed segments) and e
 
 ## Control theoretic approach to design stimulation patterns for neural circuits
 <img src="/assets/images/spike_control.png" height="400" width="400" align='right'> 
-Neurocontrol : Leveraging control theoretic principles to systematically influence neural circuits.
+Neurocontrol : Leveraging control theoretic principles to systematically perturb neural circuits.
 
-* Fit a point process generalized linear model to the neural spiking data and using this model to design exogenous stimulation for target spiking patterns in the underlying network.
+* Fit a point process generalized linear model to the neural spiking data and using this model to design exogenous stimulation for target spiking patterns in the underlying system.
 
 * Apply systems and optimal control theory to design inputs for non-linear dynamical systems.
 

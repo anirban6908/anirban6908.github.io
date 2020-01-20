@@ -10,7 +10,7 @@ comments: true
 share: false
 ---
 
-We have all seen those pictures in the high school biology book - the cells in the nervous system, **Neurons**. Here I have shared some code snippets to visualize neurons pulled from open source data in their full glory.
+We have all seen those pictures in the high school biology book - the cells in the nervous system, **Neurons**. Here I have shared some code snippets to visualize neurons (pulled from open source data) in their full glory.
 
 ![](/assets/posts/morph_viz/morph2D_neurom.png){: .left}
 
