@@ -6,7 +6,7 @@ title: false
 permalink: /publications/posters/
 ---
 
-## [Journals](/publications/journals/){: .btn .btn--inverse} &nbsp;  &nbsp;| &nbsp; &nbsp;  [Conferences](/publications/conferences/){: .btn .btn--inverse} &nbsp;  &nbsp;| &nbsp; [Talks](/publications/talks/){: .btn .btn--inverse} &nbsp;| &nbsp; &nbsp;  [Posters](/publications/posters/){: .btn .btn--success}
+## [Journals](/publications/journals/){: .btn .btn--inverse} &nbsp;  &nbsp;| &nbsp; &nbsp;  [Conferences](/publications/conferences/){: .btn .btn--inverse} &nbsp;  &nbsp;| &nbsp; [Talks](/publications/talks/){: .btn .btn--inverse} &nbsp;| &nbsp; &nbsp;  [Posters](/publications/posters/){: .btn .btn--info}
 
 * ”Generating All-Active Biophysical Models for Human and Mouse Neurons” at Society for Neuroscience
 (SFN), San Diego, CA, USA, November 2018.

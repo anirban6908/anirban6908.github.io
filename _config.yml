@@ -281,6 +281,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -292,6 +296,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+

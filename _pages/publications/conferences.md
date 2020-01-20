@@ -6,7 +6,7 @@ classes: wide
 permalink: /publications/conferences/
 ---
 
-## [Journals](/publications/journals/){: .btn .btn--inverse} &nbsp;  &nbsp;| &nbsp; &nbsp;  [Conferences](/publications/conferences/){: .btn .btn--success} &nbsp;  &nbsp;| &nbsp; [Talks](/publications/talks/){: .btn .btn--inverse} &nbsp;|&nbsp; &nbsp;  [Posters](/publications/posters/){: .btn .btn--inverse}
+## [Journals](/publications/journals/){: .btn .btn--inverse} &nbsp;  &nbsp;| &nbsp; &nbsp;  [Conferences](/publications/conferences/){: .btn .btn--info} &nbsp;  &nbsp;| &nbsp; [Talks](/publications/talks/){: .btn .btn--inverse} &nbsp;|&nbsp; &nbsp;  [Posters](/publications/posters/){: .btn .btn--inverse}
 
 * **Anirban Nandi**, Heinz Schättler, and ShiNung Ching. “Selective spiking in neuronal populations”. In: American Control Conference (ACC), 2017. IEEE. 2017, pp. 2811–2816. <a href="https://doi.org/10.23919/ACC.2017.7963377"><i class="ai ai-doi ai-1.5x" style="color:black;"></i></a>
 

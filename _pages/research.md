@@ -7,16 +7,18 @@ classes: wide
 permalink: /research/
 ---
 
+Here is a highlight of some of the projects I have worked on over the past few years. The central theme being using optimization, statistical modeling, machine learning, control and dynamical sytems to gain a deeper understanding of neural circuits.
+
 ## Biophysically detailed models of single neurons
 <img src="/assets/images/opt_graphical_abstract.png" height="350" width="350" align='right'> 
 {: style="text-align: justify"}
-Using morphology (diameter and length of digitally reconstructed segments) and electrophysiology (in-vitro recording of the membrane voltage under a standardized set of current protocols) data to constrain a multi-compartmental computational model of single neurons.
+Using morphology (diameter and length of digitally reconstructed segments) and electrophysiology (in-vitro recording of the membrane voltage under a standardized set of current protocols) data to constrain a multi-compartmental model of single neurons.
 
 * Distribute a set of active conductances along the entire morphology (hence, called all-active models) and fit the maximal values for these conductances via a multi-objective optimization framework using evolutionary algorithms.
 
 * Do the optmized conductances preserve information about the broader cell-type identity?
 
-* Establish causal relationship between different modalities of data - are the ion channels indicative of the genetic signature of the cell and how these channels affect electrophysiological properties e.g., shape of the action potential, Afterhyperpolarization(AHP).
+* Establish causal relationship between different modalities of data - are the ion channels indicative of the genetic signature of the underlying cell and how these channels affect electrophysiological properties e.g., shape of the action potential, Afterhyperpolarization(AHP).
 
 
 ## Simulate networks of neuron models to probe computational power, connectivity rules, and extracellular signature of cell classes
@@ -30,3 +32,11 @@ Using morphology (diameter and length of digitally reconstructed segments) and e
 
 
 ## Control theoretic approach to design stimulation patterns for neural circuits
+<img src="/assets/images/spike_control.png" height="400" width="400" align='right'> 
+Neurocontrol : Leveraging control theoretic principles to systematically influence neural circuits.
+
+* Fit a point process generalized linear model to the neural spiking data and using this model to design exogenous stimulation for target spiking patterns in the underlying network.
+
+* Apply systems and optimal control theory to design inputs for non-linear dynamical systems.
+
+* A generative decision model hypothesis that explains the neural dynamics in experimental data for locust olfactory circuits.

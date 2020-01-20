@@ -5,7 +5,7 @@ title: false
 classes: wide
 permalink: /publications/journals/
 ---
-## [Journals](/publications/journals/){: .btn .btn--success} &nbsp; | &nbsp;  [Conferences](/publications/conferences/){: .btn .btn--inverse} &nbsp;| &nbsp; [Talks](/publications/talks/){: .btn .btn--inverse} &nbsp; | &nbsp; [Posters](/publications/posters/){: .btn .btn--inverse}
+## [Journals](/publications/journals/){: .btn .btn--info} &nbsp; | &nbsp;  [Conferences](/publications/conferences/){: .btn .btn--inverse} &nbsp;| &nbsp; [Talks](/publications/talks/){: .btn .btn--inverse} &nbsp; | &nbsp; [Posters](/publications/posters/){: .btn .btn--inverse}
 
 * **Anirban Nandi**, Werner Van Geit, Tom Chartrand, Anatoly Buchin, Christof Koch, and Costas A. Anastassiou et al. “Cellular models linking electrophysiology, morphology and transcriptomics across cortical cell types”. In: (In preparation) (2020).
 

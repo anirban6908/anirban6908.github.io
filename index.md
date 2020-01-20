@@ -14,4 +14,4 @@ For an in-depth description of my profile please check out my [CV <i class="far 
 
 ## Recent News
 
-* Nov'19 - Our Team talk at Allen Institute Showcase is online: Enlightening the Chandelier. <a href="https://www.youtube.com/watch?v=9Zwd_y_NP8o&list=PLN-QyZNMh3Pvlgdv21FLaTmqEYvUVo5m_&index=6"><i class="fab fa-youtube" style="color:red;"></i></a>
+* Nov'19 - Our Team talk at Allen Institute Showcase is online: Enlightening the Chandelier. <a href="https://youtu.be/9Zwd_y_NP8o"><i class="fab fa-youtube" style="color:red;"></i></a>

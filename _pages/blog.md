@@ -1,17 +1,9 @@
 ---
-layout: archive
+layout: collection
 author_profile: true
-comments: false
 classes: wide
+entries_layout: grid
 title: Blog
 permalink: /blog/
+collection: posts
 ---
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
