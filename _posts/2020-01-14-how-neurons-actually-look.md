@@ -13,9 +13,10 @@ share: true
 
 We have all seen those pictures in the high school biology book - the cells in the nervous system, **Neurons**. Here I have shared some code snippets to visualize neurons (pulled from open source data) in their full glory. 
 
-Allen Institute shares a treasure trove of neuroscience related data with the community as well as the software support to access the data with Python. To get a feel of the different data modalitites please visit [here](https://portal.brain-map.org/). The data we are going to work with is part of the [Cell-types database](http://celltypes.brain-map.org/). The neuron morphologies are digitally reconstructed from the images of mouse/human brain tissue slices and saved as .swc file. Please go [here](http://www.neuronland.org/NLMorphologyConverter/MorphologyFormats/SWC/Spec.html) for a primer on the .swc format to understand how the measurements for the different sections of the neuron tree is saved.
+Allen Institute for Brain Science shares a treasure trove of neuroscience related data with the community as well as the software support to access the data with Python. To get a feel of the different data modalitites please visit [here](https://portal.brain-map.org/). The data we are going to work with is part of the [Cell-types database](http://celltypes.brain-map.org/). The neuron morphologies are digitally reconstructed from the images of mouse/human brain tissue slices and saved as .swc file. Please go [here](http://www.neuronland.org/NLMorphologyConverter/MorphologyFormats/SWC/Spec.html) for a primer on the .swc format to understand how the measurements for the different sections of the neuron tree is saved.
 
 ## Use AllenSDK to pull morphologies
+We are going to use CellTypesCache() from the allensdk module to send a get request for cell id : 479225052. This particular cell comes from Layer 5 mouse visual cortex. For an overview of the physiology, morphology, metadata and all available computational models of this cell go [here](http://celltypes.brain-map.org/mouse/experiment/electrophysiology/479225052).
 ```py
 from allensdk.core.cell_types_cache import CellTypesCache
 def get_morph_path(cell_id,save_filename=None):
@@ -29,6 +30,7 @@ morph_path = get_morph_path(cell_id)
 ```
 
 ## NeuroM 
+[NeuroM](https://github.com/BlueBrain/NeuroM) is an open source Blue Brain Project tool to analyze digitally reconstructed morphology. It comes with a visualization api which load files with extensions .swc/.h5/.asc.
 ```py
 import neurom.viewer
 import matplotlib.pyplot as plt
@@ -41,7 +43,7 @@ plt.show()
 ![](/assets/posts/morph_viz/morph2D_neurom.png){: .left}
 
 ## 3D Visualization with transformation
-As part of a bigger project related to generating detailed biophysical models, I created some visualization tools for the morphologies [<i class="fab fa-github" style="color:black;"></i>](https://github.com/AllenInstitute/All-active-Workflow). **MorphHandler** class offers the capability to rotate a neuron in 3D such that the apical trunk is upright. This involves computing the principal component of apical segments of the morphology and rotate the morphology along the axis normal to the plane composed of PC1 and positive z-axis = [0,0,1].
+As part of a bigger project related to generating detailed biophysical models, I created some visualization tools for the morphologies [<i class="fab fa-github" style="color:black;"></i>](https://github.com/AllenInstitute/All-active-Workflow). MorphHandler class offers the capability to rotate a neuron in 3D such that the apical trunk is upright. This involves computing the principal component of apical segments of the morphology and rotate the morphology along the axis normal to the plane composed of PC1 and positive z-axis = [0,0,1].
 
 ```py
 from ateamopt.morph_handler import MorphHandler
@@ -77,7 +79,7 @@ anim.make_gif(files,delay=20)
 <img src="/assets/posts/morph_viz/morph_movie_synapses.gif" height="800" width="300">
 
 ## 2D Visualization  
-
+It's straightforward to convert the 3d visualization to 2d within matplotlib. It's as simple as projecting the morphology on xz or yz plane after rotation. 
 ```py
 fig,ax=plt.subplots()
 ax = morph_handler.draw_morphology_2D(theta,axis_of_rot,reject_axon=False,ax=ax)
