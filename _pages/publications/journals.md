@@ -13,7 +13,7 @@ permalink: /publications/journals/
 
 * Anatoly Buchin, Rebecca de Frates, **Anirban Nandi**, Peter Chong, Rusty Mann, Lindsay Ng, Jeremy Miller, Christof Koch, Jonathan Ting, and Costas A. Anastassiou et al. “Multi-modal characterization and simulation of human epileptic circuitry”. In: (Under Review) (2019).
 
-* Clayton P. Mosher, Yina Wei, Jan Kaminski, **Anirban Nandi**, Adam N. Mamelak, Costas A. Anastassiou, and Ueli Rutishauser. “Cellular classes in the human brain revealed in vivo by heartbeat-related modulation of the extracellular action potential waveform”. In: (Under Review) (2019).
+* Clayton P. Mosher, Yina Wei, Jan Kaminski, **Anirban Nandi**, Adam N. Mamelak, Costas A. Anastassiou, and Ueli Rutishauser. “Cellular classes in the human brain revealed in vivo by heartbeat-related modulation of the extracellular action potential waveform”. To appear in: (Cell Reports) (2019).
 
 * Sruti Mallik, Srinath Nizampatnam, **Anirban Nandi**, Debajit Saha, Baranidharan Raman, and ShiNung Ching. “Neural Circuit Dynamics for Sensory Tracking”. In: (Under Review) (2019).
 
