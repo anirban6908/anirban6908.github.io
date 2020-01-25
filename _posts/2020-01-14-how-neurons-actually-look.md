@@ -1,5 +1,5 @@
 ---
-title:  "How neurons actually look?"
+title:  "How do neurons actually look?"
 excerpt: A look at how to visualize detailed neuron reconstructions in python
 classes: wide
 header:
