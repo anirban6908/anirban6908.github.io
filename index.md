@@ -4,6 +4,9 @@ author_profile: true
 comments: false
 classes: wide
 title: About Me
+header:
+    overlay_image: /assets/images/galaxy.jpg
+    overlay_filter: 0.25
 ---
 
 Welcome to my webpage! I'm Anirban Nandi, a computational neuroscientist by profession and electrical engineer by training. I grew up in Kolkata, India, where I completed my <!---

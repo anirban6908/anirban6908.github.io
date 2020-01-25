@@ -5,6 +5,9 @@ comments: false
 title: Research snapshot 
 classes: wide
 permalink: /research/
+header:
+    overlay_image: /assets/images/galaxy.jpg
+    overlay_filter: 0.25
 ---
 
 Here is a highlight of some of the projects I have worked on over the past few years. The central theme being using optimization, statistical modeling, machine learning, control and dynamical sytems to gain a deeper understanding of neural circuits.

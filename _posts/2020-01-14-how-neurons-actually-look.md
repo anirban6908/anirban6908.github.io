@@ -4,6 +4,8 @@ excerpt: A look at how to visualize detailed neuron reconstructions in python
 classes: wide
 header:
     teaser: /assets/posts/morph_viz/morph_layerwise.png
+    overlay_image: /assets/posts/morph_viz/morph_layerwise.png
+    overlay_filter: rgba(0, 0, 0, 0.5)
 categories: [Neuroscience]
 tags: [Neuroscience, Visualization, Python]
 comments: true
