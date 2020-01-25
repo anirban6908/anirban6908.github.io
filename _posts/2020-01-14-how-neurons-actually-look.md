@@ -1,6 +1,6 @@
 ---
-title:  "How do neurons actually look?"
-excerpt: A look at how to visualize detailed neuron reconstructions in python
+title:  "How neurons actually look like"
+excerpt: Visualizing detailed neuron reconstructions in python
 classes: wide
 header:
     teaser: /assets/posts/morph_viz/morph_layerwise.png
