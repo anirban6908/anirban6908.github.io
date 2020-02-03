@@ -8,6 +8,11 @@ permalink: /research/
 header:
     overlay_image: /assets/images/galaxy.jpg
     overlay_filter: 0.25
+gallery:
+  - image_path: /assets/images/Mouse.gif
+    title: "Image 2 title caption"
+  - image_path: spike_control.png
+    title: "Image 3 title caption"
 ---
 
 Here is a highlight of some of the projects I have worked on over the past few years. The central theme being using optimization, statistical modeling, machine learning, control and dynamical sytems to gain a deeper understanding of neural circuits.
@@ -35,7 +40,11 @@ Using morphology (diameter and length of digitally reconstructed segments) and e
 
 
 ## Control theoretic approach to design stimulation patterns for neural circuits
-<img src="/assets/images/spike_control.png" height="400" width="400" align='right'> 
+<p align="center">
+<img src="/assets/images/Mouse.gif" height="250" width="320"> 
+
+<img src="/assets/images/spike_control.png" height="400" width="500" hspace="10"> 
+</p>
 Neurocontrol : Leveraging control theoretic principles to systematically perturb neural circuits.
 
 * Fit a point process generalized linear model to the neural spiking data and using this model to design exogenous stimulation for target spiking patterns in the underlying system.

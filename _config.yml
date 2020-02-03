@@ -124,7 +124,7 @@ author:
       url: "http://alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/anirban-nandi"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ynwa6908"
+      #url: "https://twitter.com/ynwa6908"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
