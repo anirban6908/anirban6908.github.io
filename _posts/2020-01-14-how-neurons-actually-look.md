@@ -131,4 +131,4 @@ From the average depth of each layer we can place the neurons according to their
 
 ![](/assets/posts/morph_viz/morph_layerwise.png){: .full}
 
-The entire notebook is shared [here]().
+The entire notebook is shared [here](https://github.com/anirban6908/anirban6908.github.io/tree/master/assets/notebooks/morph_viz/All_things_morphology.ipynb).
