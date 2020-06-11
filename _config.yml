@@ -20,7 +20,7 @@ title                    : "Anirban Nandi"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Anirban Nandi"
-description              : "Personal website of Anirban Nandi, Data Scientist, working at Allen Institute for Brain Science, Seattle; Ph.D. in Electrical Engineering, Washington University in St. Louis"
+description              : "Personal website of Anirban Nandi, Research Scientist, working at Allen Institute for Brain Science, Seattle; Ph.D. in Electrical Engineering, Washington University in St. Louis"
 url                      : "https://anirban6908.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "anirban6908/anirban6908.github.io"
@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "Ani_blog"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:

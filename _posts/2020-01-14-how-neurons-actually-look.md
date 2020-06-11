@@ -1,4 +1,5 @@
 ---
+layout: single
 title:  "How neurons actually look"
 excerpt: Visualizing detailed neuron reconstructions in python
 classes: wide
