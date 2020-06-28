@@ -5,9 +5,9 @@ comments: false
 title: Research snapshot 
 classes: wide
 permalink: /research/
-header:
+<!-- header:
     overlay_image: /assets/images/galaxy.jpg
-    overlay_filter: 0.25
+    overlay_filter: 0.25 -->
 gallery:
   - image_path: /assets/images/Mouse.gif
     title: "Image 2 title caption"

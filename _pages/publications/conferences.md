@@ -1,13 +1,13 @@
 ---
 layout: single
 author_profile: true
-title: Publications
 classes: wide
+title:
 permalink: /publications/conferences/
-header:
-    overlay_image: /assets/images/galaxy.jpg
-    overlay_filter: 0.25
 ---
+<!-- header:
+    overlay_image: /assets/images/galaxy.jpg
+    overlay_filter: 0.25 -->
 
 # [Journals](/publications/journals/){: .btn .btn--inverse} &nbsp;  &nbsp;| &nbsp; &nbsp;  [Conferences](/publications/conferences/){: .btn .btn--info} &nbsp;  &nbsp;| &nbsp; [Talks](/publications/talks/){: .btn .btn--inverse} &nbsp;|&nbsp; &nbsp;  [Posters](/publications/posters/){: .btn .btn--inverse}
 

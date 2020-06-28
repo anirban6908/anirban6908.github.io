@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : anirban6908
 facebook:
   username               :
   app_id                 :
@@ -93,8 +93,8 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : Anirban Nandi # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : #Anirban Nandi
+  name             : Anirban Nandi
   avatar           : "/assets/images/Ani_bio.JPG"
-  bio              : "Allen Institute <br> PhD, Electrical Eng. <br> Alum: WashU (STL), JU"
+  bio              : "Research Scientist"
   location         : "Seattle, WA"
   email            : "ani.nandi989@gmail.com"
   linkedin         : "anirban-nandi"
@@ -124,7 +124,7 @@ author:
       url: "http://alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/anirban-nandi"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      #url: "https://twitter.com/ynwa6908"
+      url: "https://twitter.com/anirban6908"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
