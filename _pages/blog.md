@@ -7,6 +7,3 @@ title:
 permalink: /blog/
 collection: posts
 ---
-<!-- header:
-    overlay_image: /assets/images/galaxy.jpg
-    overlay_filter: 0.25 -->
