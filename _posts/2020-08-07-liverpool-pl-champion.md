@@ -62,13 +62,14 @@ The following radar plot made using ggradar package shows some statistics for th
 
 ## Back on our perch
 
-It's good to be at the pinnacle of English Football once again (at the time of writing this blog post, we are also the European and World Champion). The following heatmap constructed using the leaflet package shows the domestic league success across the clubs. Even with a late start, Liverpool are now 1 championship away from catching up to Man United (20 league titles). The data for this visualization is scraped from the [wiki page](https://en.wikipedia.org/wiki/List_of_English_football_champions) using rvest package.
+It's good to be at the pinnacle of English Football once again (at the time of writing this blog post, we are also the European and World Champion). The following heatmap constructed using the leaflet package shows the domestic league success across the clubs. Even with a late start, Liverpool are now 1 championship away from catching up to Man United (20 league titles). Hope the trend continues and Liverpool can defend their second premier league title next season in front of their adoring fans. 
 
 <div>
     <iframe src="cship_region.html" width="100%" height="700" style="border:none;" ></iframe>
 </div>
 
-The codes for this blog is available [here](https://github.com/anirban6908/anirban6908.github.io/tree/master/assets/codes/lfc_2019_20)
+
+The data for this visualization is scraped from the [wiki page](https://en.wikipedia.org/wiki/List_of_English_football_champions) using rvest package. The R code for the visualizations is available [here](https://github.com/anirban6908/anirban6908.github.io/tree/master/assets/codes/lfc_2019_20). 
 
 ## References
 * Integrating sparkline with formattable ([link](https://www.displayr.com/formattable/))
